@@ -8,7 +8,7 @@
 
 namespace kartik\mpdf;
 
-use Mpdf\Mpdf;
+use kvr001\Mpdf;
 use Yii;
 use yii\base\Component;
 use yii\base\InvalidConfigException;
