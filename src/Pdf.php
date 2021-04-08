@@ -8,7 +8,7 @@
 
 namespace kvr001\mpdf;
 
-use kvr001\Mpdf;
+use Mpdf\Mpdf;
 use Yii;
 use yii\base\Component;
 use yii\base\InvalidConfigException;
@@ -145,7 +145,7 @@ class Pdf extends Component
     /**
      * @var array|string css files to prepend to the PDF
      */
-    public $cssFile = '@vendor/kartik-v/yii2-mpdf/src/assets/kv-mpdf-bootstrap.min.css';
+    public $cssFile = '@vendor/kvr001/yii2-mpdf/src/assets/kv-mpdf-bootstrap.min.css';
     /**
      * @var string additional inline css to append after the cssFile
      */
